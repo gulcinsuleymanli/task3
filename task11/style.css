@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Shadows+Into+Light&display=swap')
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: burlywood;
+   
+}
+
+.demo {
+    width: 100%;
+    height: 100vh;
+    background: url("./photo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+   
+    
+}
+
+
+.contient {
+    position: absolute;
+    padding: 60px;
+    text-align: center; 
+}
+
+.photo {
+    width: 12px;
+    cursor: pointer;
+    margin: 10px 0px 10px;
+    border: 2px;
+    position: absolute;
+}
+
+
+
+.h1 {
+    font-size: 70px;
+    margin-top: 80px;
+    
+}
+
+.p {
+    margin: 20px auto;
+    font-weight: 100;
+    list-style: 25px;
+    text-align: center;
+    
+}
+
+.img {
+    width: 50%;
+    height: 50px;
+    object-fit: cover;
+    
+    
+}
