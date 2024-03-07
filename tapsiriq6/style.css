@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    background-image: url("galatasaray.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+}
+
+.navbar .logo {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar .logo img {
+    width: 100%;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 40px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0, 8px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.center h1 {
+    color: brown;
+    text-align: center;
+    transform: sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    margin-top: auto;
+}
+
+.auto h1 {
+    color: black;
+    text-align: center;
+    text-shadow: -1px 3px 9px rgba(0, 0, 0, 0.71);
+}
+
+.auto p {
+    color: black;
+    text-align: center;
+
+}
+
+section {
+    margin: 40px;
+}
+
+section>h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: teal;
+    width: 30%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product h3 {
+    color: white;
+}
+
+.product h2 {
+    color: red;
+    font-size: 24px;
+}
+
+.buy {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy button {
+    background-color: yellow;
+    border: none;
+    width: 55px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.buy button:hover {
+    background-color: rgb(232, 232, 96);
+    cursor: pointer;
+}
